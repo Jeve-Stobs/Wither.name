@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Random Wither Name Generator</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie-edge">
-	<link rel="stylesheet" href="style.css">
-	<link rel="shortcut icon" type="image/jpg" href="Wither0.png"/>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-01JQY4VM6K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="stylesheet" href="style.css">
 
-  gtag('config', 'G-01JQY4VM6K');
-</script>
+	<link rel="shortcut icon" type="image/jpg" href="Wither0.png" />
 	<style type="text/css">
 		#name {
 			text-transform: capitalize;
@@ -261,8 +254,8 @@
         var name = document.getElementById("name").innerHTML;
         var li = document.createElement("li");
         var a = document.createElement("a");
-        a.href = "https://google.com/#/" + name.replace(/\s+/g, '');
-        var content = document.createTextNode(name);
+        a.href = "https://duckduckgo.com/?q=" + name.replace(/\s+/g, '');
+        var content = document.createTextNode(name); 
         a.appendChild(content);
         li.appendChild(a);
         var ul = document.getElementById("likes");
