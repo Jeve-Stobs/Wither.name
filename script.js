@@ -2070,7 +2070,7 @@ function like() {
 	var name = document.getElementById("name").innerHTML;
 	var li = document.createElement("li");
 	var a = document.createElement("a");
-	a.href = "https://duckduckgo.com/?q=" + name.replace(/\s+/g, "");
+	a.href = "https://www.google.com/search?as_q=" + name.replace(/\s+/g, "");
 	var content = document.createTextNode(name);
 	a.appendChild(content);
 	li.appendChild(a);
